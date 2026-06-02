@@ -1,0 +1,95 @@
+/* Custom RSVP Form Styles */
+
+.rsvp .rsvp-form .form-input-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.rsvp .rsvp-form .form-input-group i.fa-phone,
+.rsvp .rsvp-form .form-input-group i.fa-heart,
+.rsvp .rsvp-form .form-input-group i.fa-calendar,
+.rsvp .rsvp-form .form-input-group i.fa-clock-o {
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 20px;
+    z-index: 1;
+}
+
+.rsvp .rsvp-form .form-input-group i.fa-phone:after,
+.rsvp .rsvp-form .form-input-group i.fa-heart:after,
+.rsvp .rsvp-form .form-input-group i.fa-calendar:after,
+.rsvp .rsvp-form .form-input-group i.fa-clock-o:after {
+    content: "";
+    height: 30px;
+    width: 1px;
+    border-right: solid 1px #e6e9ea;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+}
+
+.rsvp .rsvp-form .form-input-group select {
+    padding-left: 68px;
+    width: 100%;
+    height: 55px;
+    border-radius: 6px;
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    color: #3d4351;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23e8ca6f' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 18px;
+}
+
+.rsvp .rsvp-form .form-input-group select:focus {
+    outline: none;
+    border-color: #e8ca6f;
+}
+
+.rsvp .rsvp-form .form-input-group select option {
+    color: #3d4351;
+}
+
+.rsvp .rsvp-form .form-input-group select:invalid {
+    color: #bcc1c3;
+}
+
+.rsvp .rsvp-form .form-input-group input[type="date"],
+.rsvp .rsvp-form .form-input-group input[type="time"] {
+    color: #3d4351;
+}
+
+.rsvp .rsvp-form .form-input-group input[type="date"]::-webkit-calendar-picker-indicator,
+.rsvp .rsvp-form .form-input-group input[type="time"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    filter: invert(74%) sepia(26%) saturate(531%) hue-rotate(3deg) brightness(92%) contrast(87%);
+}
+
+.rsvp .rsvp-form .form-input-group input:focus,
+.rsvp .rsvp-form .form-input-group select:focus {
+    outline: none;
+}
+
+/* Better spacing */
+.rsvp .rsvp-form .row {
+    margin-bottom: 0;
+}
+
+.rsvp .rsvp-form .rsvp-btn {
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+.rsvp .rsvp-form .rsvp-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(232, 202, 111, 0.3);
+}
