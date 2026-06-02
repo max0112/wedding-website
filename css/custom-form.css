@@ -93,3 +93,19 @@
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(232, 202, 111, 0.3);
 }
+
+/* Instagram Section Spacing */
+#instagram p {
+    margin-bottom: 15px;
+}
+
+#instagram .share-bar {
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+/* Logo Size Override */
+header .logo img {
+    height: 50px !important;
+    width: auto;
+}
