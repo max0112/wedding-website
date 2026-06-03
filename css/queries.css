@@ -1,7 +1,15 @@
+/* Large screen adjustments - show bottom part of hero image */
+@media screen and (min-width: 2048px) {
+    .hero {
+        background-position: center 75% !important;
+    }
+}
+
 /* Desktop navigation centering */
 @media screen and (min-width: 992px) {
     .hero {
         min-height: 750px;
+        background-position: center 60%;
     }
 
     .navigation {
