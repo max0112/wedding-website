@@ -110,6 +110,7 @@
     /* Thinner hero section */
     .hero {
         min-height: 400px;
+        background-size: 115%;
     }
 
     .hero .hero-content {
@@ -378,6 +379,7 @@
 @media screen and (max-width: 640px) {
     .hero {
         min-height: 350px;
+        background-size: 115%;
     }
 
     .hero .hero-content {
@@ -421,6 +423,7 @@
 @media screen and (max-width: 480px) {
     .hero {
         min-height: 320px;
+        background-size: 115%;
     }
 
     .hero .hero-content {
@@ -489,6 +492,7 @@
 @media screen and (max-width: 320px) {
     .hero {
         min-height: 300px;
+        background-size: 115%;
     }
 
     .hero .hero-content {
