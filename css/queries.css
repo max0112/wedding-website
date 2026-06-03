@@ -7,21 +7,28 @@
 
 /* Desktop navigation centering */
 @media screen and (min-width: 992px) {
+    body {
+        padding-top: 0;
+    }
+
     .hero {
         min-height: 750px;
         background-position: center 60%;
     }
 
     .navigation {
-        position: absolute;
+        position: fixed;
         width: 100%;
         top: 0;
         left: 0;
         z-index: 999;
+        background-color: rgba(55, 36, 40, 0.95);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-in-out;
     }
 
     header {
-        padding: 30px 0;
+        padding: 20px 0;
         width: 1170px;
         margin: 0 auto;
         border-bottom: none;
