@@ -130,7 +130,7 @@ $(document).ready(function () {
     var share_bar = document.getElementsByClassName('share-bar');
 
     for (var i = 0; i < share_bar.length; i++) {
-        var html = '<a href="https://www.instagram.com/aksharsekahanitak?igsh=MTR3N3NwaDBiZm1qcA==" target="_blank" class="btn btn-small" style="background:#E1306C; color:white;">' +
+        var html = '<a href="https://www.instagram.com/aksharsekahanitak?igsh=MTR3N3NwaDBiZm1qcA==" target="_blank" class="btn btn-small" style="background:#E1306C; color:white; text-transform:none;">' +
             '<i class="fa fa-instagram"></i>&nbsp;&nbsp;AksharSeKahaniTak' +
             '</a>';
 
