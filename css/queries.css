@@ -1,3 +1,35 @@
+/* Logo square styling below RSVP */
+.logo-square-wrapper {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.logo-square {
+    max-width: 120px;
+    height: auto;
+    opacity: 0.85;
+    transition: all 0.3s ease-in-out;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+}
+
+.logo-square:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    filter: drop-shadow(0 6px 12px rgba(232, 202, 111, 0.3));
+}
+
+@media screen and (max-width: 640px) {
+    .logo-square {
+        max-width: 80px;
+    }
+
+    .logo-square-wrapper {
+        margin-top: 30px;
+    }
+}
+
 /* Large screen adjustments - show bottom part of hero image */
 @media screen and (min-width: 2048px) {
     .hero {
